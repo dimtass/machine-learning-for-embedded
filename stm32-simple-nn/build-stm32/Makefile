@@ -124,43 +124,43 @@ stdperiph/fast:
 .PHONY : stdperiph/fast
 
 #=============================================================================
-# Target rules for targets named stm32-simple-neural-network.bin
+# Target rules for targets named stm32-neural-network.bin
 
 # Build rule for target.
-stm32-simple-neural-network.bin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stm32-simple-neural-network.bin
-.PHONY : stm32-simple-neural-network.bin
+stm32-neural-network.bin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stm32-neural-network.bin
+.PHONY : stm32-neural-network.bin
 
 # fast build rule for target.
-stm32-simple-neural-network.bin/fast:
-	$(MAKE) -f src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/build.make src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/build
-.PHONY : stm32-simple-neural-network.bin/fast
+stm32-neural-network.bin/fast:
+	$(MAKE) -f src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/build.make src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/build
+.PHONY : stm32-neural-network.bin/fast
 
 #=============================================================================
-# Target rules for targets named stm32-simple-neural-network.elf
+# Target rules for targets named stm32-neural-network.elf
 
 # Build rule for target.
-stm32-simple-neural-network.elf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stm32-simple-neural-network.elf
-.PHONY : stm32-simple-neural-network.elf
+stm32-neural-network.elf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stm32-neural-network.elf
+.PHONY : stm32-neural-network.elf
 
 # fast build rule for target.
-stm32-simple-neural-network.elf/fast:
-	$(MAKE) -f src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/build.make src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/build
-.PHONY : stm32-simple-neural-network.elf/fast
+stm32-neural-network.elf/fast:
+	$(MAKE) -f src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/build.make src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/build
+.PHONY : stm32-neural-network.elf/fast
 
 #=============================================================================
-# Target rules for targets named stm32-simple-neural-network.hex
+# Target rules for targets named stm32-neural-network.hex
 
 # Build rule for target.
-stm32-simple-neural-network.hex: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stm32-simple-neural-network.hex
-.PHONY : stm32-simple-neural-network.hex
+stm32-neural-network.hex: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stm32-neural-network.hex
+.PHONY : stm32-neural-network.hex
 
 # fast build rule for target.
-stm32-simple-neural-network.hex/fast:
-	$(MAKE) -f src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/build.make src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/build
-.PHONY : stm32-simple-neural-network.hex/fast
+stm32-neural-network.hex/fast:
+	$(MAKE) -f src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/build.make src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/build
+.PHONY : stm32-neural-network.hex/fast
 
 libs/stdperiph/stm32f1/src/misc.obj: libs/stdperiph/stm32f1/src/misc.c.obj
 
@@ -792,9 +792,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... stdperiph"
 	@echo "... edit_cache"
-	@echo "... stm32-simple-neural-network.bin"
-	@echo "... stm32-simple-neural-network.elf"
-	@echo "... stm32-simple-neural-network.hex"
+	@echo "... stm32-neural-network.bin"
+	@echo "... stm32-neural-network.elf"
+	@echo "... stm32-neural-network.hex"
 	@echo "... libs/stdperiph/stm32f1/src/misc.obj"
 	@echo "... libs/stdperiph/stm32f1/src/misc.i"
 	@echo "... libs/stdperiph/stm32f1/src/misc.s"

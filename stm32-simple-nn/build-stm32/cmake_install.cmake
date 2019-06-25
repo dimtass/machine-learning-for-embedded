@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/src_stdperiph/cmake_install.cmake")
+  include("/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/src_simple_nn/cmake_install.cmake")
 
 endif()
 

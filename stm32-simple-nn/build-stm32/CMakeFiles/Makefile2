@@ -97,135 +97,135 @@ clean: CMakeFiles/stdperiph.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory src_stdperiph
+# Directory level rules for directory src_simple_nn
 
 # Convenience name for "all" pass in the directory.
-src_stdperiph/all: src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/all
-src_stdperiph/all: src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/all
-src_stdperiph/all: src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/all
+src_simple_nn/all: src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/all
+src_simple_nn/all: src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/all
+src_simple_nn/all: src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/all
 
-.PHONY : src_stdperiph/all
+.PHONY : src_simple_nn/all
 
 # Convenience name for "clean" pass in the directory.
-src_stdperiph/clean: src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/clean
-src_stdperiph/clean: src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/clean
-src_stdperiph/clean: src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/clean
+src_simple_nn/clean: src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/clean
+src_simple_nn/clean: src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/clean
+src_simple_nn/clean: src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/clean
 
-.PHONY : src_stdperiph/clean
+.PHONY : src_simple_nn/clean
 
 # Convenience name for "preinstall" pass in the directory.
-src_stdperiph/preinstall:
+src_simple_nn/preinstall:
 
-.PHONY : src_stdperiph/preinstall
+.PHONY : src_simple_nn/preinstall
 
 #=============================================================================
-# Target rules for target src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir
+# Target rules for target src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir
 
 # All Build rule for target.
-src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/all: src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/all
-	$(MAKE) -f src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/build.make src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/depend
-	$(MAKE) -f src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/build.make src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles --progress-num=25 "Built target stm32-simple-neural-network.bin"
-.PHONY : src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/all
+src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/all: src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/all
+	$(MAKE) -f src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/build.make src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/depend
+	$(MAKE) -f src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/build.make src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles --progress-num=25 "Built target stm32-neural-network.bin"
+.PHONY : src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/all
 
 # Include target in all.
-all: src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/all
+all: src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/rule: cmake_check_build_system
+src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles 40
-	$(MAKE) -f CMakeFiles/Makefile2 src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles 0
-.PHONY : src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/rule
+.PHONY : src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/rule
 
 # Convenience name for target.
-stm32-simple-neural-network.bin: src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/rule
+stm32-neural-network.bin: src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/rule
 
-.PHONY : stm32-simple-neural-network.bin
-
-# clean rule for target.
-src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/clean:
-	$(MAKE) -f src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/build.make src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/clean
-.PHONY : src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/clean
+.PHONY : stm32-neural-network.bin
 
 # clean rule for target.
-clean: src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/clean
+src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/clean:
+	$(MAKE) -f src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/build.make src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/clean
+.PHONY : src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/clean
+
+# clean rule for target.
+clean: src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir
+# Target rules for target src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir
 
 # All Build rule for target.
-src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/all: CMakeFiles/stdperiph.dir/all
-	$(MAKE) -f src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/build.make src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/depend
-	$(MAKE) -f src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/build.make src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles --progress-num=26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target stm32-simple-neural-network.elf"
-.PHONY : src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/all
+src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/all: CMakeFiles/stdperiph.dir/all
+	$(MAKE) -f src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/build.make src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/depend
+	$(MAKE) -f src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/build.make src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles --progress-num=26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target stm32-neural-network.elf"
+.PHONY : src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/all
 
 # Include target in all.
-all: src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/all
+all: src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/rule: cmake_check_build_system
+src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles 39
-	$(MAKE) -f CMakeFiles/Makefile2 src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles 0
-.PHONY : src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/rule
+.PHONY : src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/rule
 
 # Convenience name for target.
-stm32-simple-neural-network.elf: src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/rule
+stm32-neural-network.elf: src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/rule
 
-.PHONY : stm32-simple-neural-network.elf
-
-# clean rule for target.
-src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/clean:
-	$(MAKE) -f src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/build.make src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/clean
-.PHONY : src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/clean
+.PHONY : stm32-neural-network.elf
 
 # clean rule for target.
-clean: src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/clean
+src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/clean:
+	$(MAKE) -f src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/build.make src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/clean
+.PHONY : src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/clean
+
+# clean rule for target.
+clean: src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir
+# Target rules for target src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir
 
 # All Build rule for target.
-src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/all: src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/all
-	$(MAKE) -f src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/build.make src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/depend
-	$(MAKE) -f src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/build.make src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles --progress-num=41 "Built target stm32-simple-neural-network.hex"
-.PHONY : src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/all
+src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/all: src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/all
+	$(MAKE) -f src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/build.make src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/depend
+	$(MAKE) -f src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/build.make src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles --progress-num=41 "Built target stm32-neural-network.hex"
+.PHONY : src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/all
 
 # Include target in all.
-all: src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/all
+all: src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/rule: cmake_check_build_system
+src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles 40
-	$(MAKE) -f CMakeFiles/Makefile2 src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles 0
-.PHONY : src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/rule
+.PHONY : src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/rule
 
 # Convenience name for target.
-stm32-simple-neural-network.hex: src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/rule
+stm32-neural-network.hex: src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/rule
 
-.PHONY : stm32-simple-neural-network.hex
-
-# clean rule for target.
-src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/clean:
-	$(MAKE) -f src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/build.make src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/clean
-.PHONY : src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/clean
+.PHONY : stm32-neural-network.hex
 
 # clean rule for target.
-clean: src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/clean
+src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/clean:
+	$(MAKE) -f src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/build.make src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/clean
+.PHONY : src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/clean
+
+# clean rule for target.
+clean: src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/clean
 
 .PHONY : clean
 

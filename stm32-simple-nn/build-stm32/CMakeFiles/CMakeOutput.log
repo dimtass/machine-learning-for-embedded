@@ -29,28 +29,28 @@ The CXX compiler identification is GNU, found in "/rnd/DL/machine-learning-for-e
 Determining if the C compiler works passed with the following output:
 Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b23ed/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b23ed.dir/build.make CMakeFiles/cmTC_b23ed.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_65035/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65035.dir/build.make CMakeFiles/cmTC_65035.dir/build
 make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b23ed.dir/testCCompiler.c.obj
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -o CMakeFiles/cmTC_b23ed.dir/testCCompiler.c.obj   -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_b23ed
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b23ed.dir/link.txt --verbose=1
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_b23ed.dir/testCCompiler.c.obj  -o cmTC_b23ed 
+Building C object CMakeFiles/cmTC_65035.dir/testCCompiler.c.obj
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -o CMakeFiles/cmTC_65035.dir/testCCompiler.c.obj   -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_65035
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65035.dir/link.txt --verbose=1
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_65035.dir/testCCompiler.c.obj  -o cmTC_65035 
 make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_31606/fast"
-/usr/bin/make -f CMakeFiles/cmTC_31606.dir/build.make CMakeFiles/cmTC_31606.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_7378a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7378a.dir/build.make CMakeFiles/cmTC_7378a.dir/build
 make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_31606.dir/CMakeCCompilerABI.c.obj
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -o CMakeFiles/cmTC_31606.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_31606
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31606.dir/link.txt --verbose=1
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections -v CMakeFiles/cmTC_31606.dir/CMakeCCompilerABI.c.obj  -o cmTC_31606 
+Building C object CMakeFiles/cmTC_7378a.dir/CMakeCCompilerABI.c.obj
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -o CMakeFiles/cmTC_7378a.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7378a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7378a.dir/link.txt --verbose=1
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections -v CMakeFiles/cmTC_7378a.dir/CMakeCCompilerABI.c.obj  -o cmTC_7378a 
 Using built-in specs.
 Reading specs from /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -62,9 +62,9 @@ Thread model: single
 gcc version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (GNU Tools for Arm Embedded Processors 7-2018-q2-update) 
 COMPILER_PATH=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/thumb/v7-m/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-specs=nosys.specs' '-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-mthumb-interwork' '-v' '-o' 'cmTC_31606'
- /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2 -plugin /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so -plugin-opt=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3RR4Ta.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi -EL -X -o cmTC_31606 /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1 -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib -lm -lc -lnosys -Map=linker.map -cref --gc-sections CMakeFiles/cmTC_31606.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtend.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
-COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-specs=nosys.specs' '-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-mthumb-interwork' '-v' '-o' 'cmTC_31606'
+COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-specs=nosys.specs' '-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-mthumb-interwork' '-v' '-o' 'cmTC_7378a'
+ /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2 -plugin /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so -plugin-opt=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfxswv8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi -EL -X -o cmTC_7378a /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1 -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib -lm -lc -lnosys -Map=linker.map -cref --gc-sections CMakeFiles/cmTC_7378a.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtend.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
+COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-specs=nosys.specs' '-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-mthumb-interwork' '-v' '-o' 'cmTC_7378a'
 make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
 
 
@@ -72,14 +72,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_31606/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_31606.dir/build.make CMakeFiles/cmTC_31606.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7378a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7378a.dir/build.make CMakeFiles/cmTC_7378a.dir/build]
   ignore line: [make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_31606.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -o CMakeFiles/cmTC_31606.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_31606]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31606.dir/link.txt --verbose=1]
-  ignore line: [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections -v CMakeFiles/cmTC_31606.dir/CMakeCCompilerABI.c.obj  -o cmTC_31606 ]
+  ignore line: [Building C object CMakeFiles/cmTC_7378a.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -o CMakeFiles/cmTC_7378a.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7378a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7378a.dir/link.txt --verbose=1]
+  ignore line: [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections -v CMakeFiles/cmTC_7378a.dir/CMakeCCompilerABI.c.obj  -o cmTC_7378a ]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -91,13 +91,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (GNU Tools for Arm Embedded Processors 7-2018-q2-update) ]
   ignore line: [COMPILER_PATH=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/thumb/v7-m/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-specs=nosys.specs' '-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-mthumb-interwork' '-v' '-o' 'cmTC_31606']
-  link line: [ /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2 -plugin /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so -plugin-opt=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3RR4Ta.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi -EL -X -o cmTC_31606 /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1 -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib -lm -lc -lnosys -Map=linker.map -cref --gc-sections CMakeFiles/cmTC_31606.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtend.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-specs=nosys.specs' '-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-mthumb-interwork' '-v' '-o' 'cmTC_7378a']
+  link line: [ /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2 -plugin /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so -plugin-opt=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfxswv8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi -EL -X -o cmTC_7378a /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1 -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib -lm -lc -lnosys -Map=linker.map -cref --gc-sections CMakeFiles/cmTC_7378a.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtend.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o]
     arg [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc3RR4Ta.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccfxswv8.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [-EL] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_31606] ==> ignore
+    arg [cmTC_7378a] ==> ignore
     arg [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o] ==> ignore
     arg [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o] ==> ignore
     arg [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o] ==> ignore
@@ -124,7 +124,7 @@ Parsed C implicit link information from above output:
     arg [-Map=linker.map] ==> ignore
     arg [-cref] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_31606.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_7378a.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [--start-group] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
@@ -153,14 +153,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_48ddc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_48ddc.dir/build.make CMakeFiles/cmTC_48ddc.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3d828/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d828.dir/build.make CMakeFiles/cmTC_3d828.dir/build
 make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_48ddc.dir/feature_tests.c.obj
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c11 -o CMakeFiles/cmTC_48ddc.dir/feature_tests.c.obj   -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.c
-Linking C executable cmTC_48ddc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48ddc.dir/link.txt --verbose=1
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_48ddc.dir/feature_tests.c.obj  -o cmTC_48ddc 
+Building C object CMakeFiles/cmTC_3d828.dir/feature_tests.c.obj
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c11 -o CMakeFiles/cmTC_3d828.dir/feature_tests.c.obj   -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3d828
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d828.dir/link.txt --verbose=1
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_3d828.dir/feature_tests.c.obj  -o cmTC_3d828 
 make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
 
 
@@ -173,14 +173,14 @@ make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-n
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c7fee/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c7fee.dir/build.make CMakeFiles/cmTC_c7fee.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f9434/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9434.dir/build.make CMakeFiles/cmTC_f9434.dir/build
 make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c7fee.dir/feature_tests.c.obj
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c99 -o CMakeFiles/cmTC_c7fee.dir/feature_tests.c.obj   -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c7fee
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7fee.dir/link.txt --verbose=1
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_c7fee.dir/feature_tests.c.obj  -o cmTC_c7fee 
+Building C object CMakeFiles/cmTC_f9434.dir/feature_tests.c.obj
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c99 -o CMakeFiles/cmTC_f9434.dir/feature_tests.c.obj   -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f9434
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9434.dir/link.txt --verbose=1
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_f9434.dir/feature_tests.c.obj  -o cmTC_f9434 
 make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
 
 
@@ -193,14 +193,14 @@ make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-n
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d6067/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d6067.dir/build.make CMakeFiles/cmTC_d6067.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e49ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e49ff.dir/build.make CMakeFiles/cmTC_e49ff.dir/build
 make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d6067.dir/feature_tests.c.obj
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c90 -o CMakeFiles/cmTC_d6067.dir/feature_tests.c.obj   -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d6067
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6067.dir/link.txt --verbose=1
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_d6067.dir/feature_tests.c.obj  -o cmTC_d6067 
+Building C object CMakeFiles/cmTC_e49ff.dir/feature_tests.c.obj
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc   -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c90 -o CMakeFiles/cmTC_e49ff.dir/feature_tests.c.obj   -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e49ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e49ff.dir/link.txt --verbose=1
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_e49ff.dir/feature_tests.c.obj  -o cmTC_e49ff 
 make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
 
 
@@ -211,28 +211,28 @@ make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-n
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_465e6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_465e6.dir/build.make CMakeFiles/cmTC_465e6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ffd4a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ffd4a.dir/build.make CMakeFiles/cmTC_ffd4a.dir/build
 make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_465e6.dir/testCXXCompiler.cxx.obj
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -o CMakeFiles/cmTC_465e6.dir/testCXXCompiler.cxx.obj -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_465e6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_465e6.dir/link.txt --verbose=1
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_465e6.dir/testCXXCompiler.cxx.obj  -o cmTC_465e6 
+Building CXX object CMakeFiles/cmTC_ffd4a.dir/testCXXCompiler.cxx.obj
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -o CMakeFiles/cmTC_ffd4a.dir/testCXXCompiler.cxx.obj -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ffd4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffd4a.dir/link.txt --verbose=1
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_ffd4a.dir/testCXXCompiler.cxx.obj  -o cmTC_ffd4a 
 make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a2231/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a2231.dir/build.make CMakeFiles/cmTC_a2231.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c97fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c97fa.dir/build.make CMakeFiles/cmTC_c97fa.dir/build
 make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a2231.dir/CMakeCXXCompilerABI.cpp.obj
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -o CMakeFiles/cmTC_a2231.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_a2231
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2231.dir/link.txt --verbose=1
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections -v CMakeFiles/cmTC_a2231.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_a2231 
+Building CXX object CMakeFiles/cmTC_c97fa.dir/CMakeCXXCompilerABI.cpp.obj
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -o CMakeFiles/cmTC_c97fa.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c97fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c97fa.dir/link.txt --verbose=1
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections -v CMakeFiles/cmTC_c97fa.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_c97fa 
 Using built-in specs.
 Reading specs from /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nosys.specs
 rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
@@ -244,9 +244,9 @@ Thread model: single
 gcc version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (GNU Tools for Arm Embedded Processors 7-2018-q2-update) 
 COMPILER_PATH=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/thumb/v7-m/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-specs=nosys.specs' '-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-mthumb-interwork' '-v' '-o' 'cmTC_a2231'
- /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2 -plugin /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so -plugin-opt=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccw5QkAF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi -EL -X -o cmTC_a2231 /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1 -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib -lnosys -Map=linker.map -cref --gc-sections CMakeFiles/cmTC_a2231.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lc --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtend.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
-COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-specs=nosys.specs' '-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-mthumb-interwork' '-v' '-o' 'cmTC_a2231'
+COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-specs=nosys.specs' '-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-mthumb-interwork' '-v' '-o' 'cmTC_c97fa'
+ /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2 -plugin /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so -plugin-opt=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyV9zQC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi -EL -X -o cmTC_c97fa /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1 -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib -lnosys -Map=linker.map -cref --gc-sections CMakeFiles/cmTC_c97fa.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lc --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtend.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o
+COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-specs=nosys.specs' '-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-mthumb-interwork' '-v' '-o' 'cmTC_c97fa'
 make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
 
 
@@ -254,14 +254,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a2231/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a2231.dir/build.make CMakeFiles/cmTC_a2231.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c97fa/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c97fa.dir/build.make CMakeFiles/cmTC_c97fa.dir/build]
   ignore line: [make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_a2231.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -o CMakeFiles/cmTC_a2231.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_a2231]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2231.dir/link.txt --verbose=1]
-  ignore line: [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections -v CMakeFiles/cmTC_a2231.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_a2231 ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_c97fa.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -o CMakeFiles/cmTC_c97fa.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c97fa]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c97fa.dir/link.txt --verbose=1]
+  ignore line: [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections -v CMakeFiles/cmTC_c97fa.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_c97fa ]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/nosys.specs]
   ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
@@ -273,13 +273,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] (GNU Tools for Arm Embedded Processors 7-2018-q2-update) ]
   ignore line: [COMPILER_PATH=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/thumb/v7-m/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/:/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-specs=nosys.specs' '-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-mthumb-interwork' '-v' '-o' 'cmTC_a2231']
-  link line: [ /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2 -plugin /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so -plugin-opt=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccw5QkAF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi -EL -X -o cmTC_a2231 /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1 -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib -lnosys -Map=linker.map -cref --gc-sections CMakeFiles/cmTC_a2231.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lc --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtend.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-specs=nosys.specs' '-mthumb' '-mcpu=cortex-m3' '-mlittle-endian' '-mthumb-interwork' '-v' '-o' 'cmTC_c97fa']
+  link line: [ /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2 -plugin /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so -plugin-opt=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyV9zQC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi -EL -X -o cmTC_c97fa /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib/thumb/v7-m -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1 -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib -L/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../arm-none-eabi/lib -lnosys -Map=linker.map -cref --gc-sections CMakeFiles/cmTC_c97fa.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lc --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtend.o /opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtn.o]
     arg [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccw5QkAF.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccyV9zQC.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -289,7 +289,7 @@ Parsed CXX implicit link information from above output:
     arg [-EL] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a2231] ==> ignore
+    arg [cmTC_c97fa] ==> ignore
     arg [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crti.o] ==> ignore
     arg [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7-m/crtbegin.o] ==> ignore
     arg [/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/crt0.o] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-Map=linker.map] ==> ignore
     arg [-cref] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_a2231.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_c97fa.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lc] ==> lib [c]
@@ -336,14 +336,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
 Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4ff8e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4ff8e.dir/build.make CMakeFiles/cmTC_4ff8e.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0c038/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c038.dir/build.make CMakeFiles/cmTC_0c038.dir/build
 make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4ff8e.dir/feature_tests.cxx.obj
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c++1z -o CMakeFiles/cmTC_4ff8e.dir/feature_tests.cxx.obj -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4ff8e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ff8e.dir/link.txt --verbose=1
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_4ff8e.dir/feature_tests.cxx.obj  -o cmTC_4ff8e 
+Building CXX object CMakeFiles/cmTC_0c038.dir/feature_tests.cxx.obj
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c++1z -o CMakeFiles/cmTC_0c038.dir/feature_tests.cxx.obj -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0c038
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c038.dir/link.txt --verbose=1
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_0c038.dir/feature_tests.cxx.obj  -o cmTC_0c038 
 make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
 
 
@@ -409,14 +409,14 @@ make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-n
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1184b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1184b.dir/build.make CMakeFiles/cmTC_1184b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_0b31c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b31c.dir/build.make CMakeFiles/cmTC_0b31c.dir/build
 make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1184b.dir/feature_tests.cxx.obj
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c++14 -o CMakeFiles/cmTC_1184b.dir/feature_tests.cxx.obj -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1184b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1184b.dir/link.txt --verbose=1
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_1184b.dir/feature_tests.cxx.obj  -o cmTC_1184b 
+Building CXX object CMakeFiles/cmTC_0b31c.dir/feature_tests.cxx.obj
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c++14 -o CMakeFiles/cmTC_0b31c.dir/feature_tests.cxx.obj -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0b31c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b31c.dir/link.txt --verbose=1
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_0b31c.dir/feature_tests.cxx.obj  -o cmTC_0b31c 
 make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
 
 
@@ -482,14 +482,14 @@ make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-n
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7109c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7109c.dir/build.make CMakeFiles/cmTC_7109c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_57b0b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57b0b.dir/build.make CMakeFiles/cmTC_57b0b.dir/build
 make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_7109c.dir/feature_tests.cxx.obj
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c++11 -o CMakeFiles/cmTC_7109c.dir/feature_tests.cxx.obj -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_7109c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7109c.dir/link.txt --verbose=1
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_7109c.dir/feature_tests.cxx.obj  -o cmTC_7109c 
+Building CXX object CMakeFiles/cmTC_57b0b.dir/feature_tests.cxx.obj
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c++11 -o CMakeFiles/cmTC_57b0b.dir/feature_tests.cxx.obj -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_57b0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57b0b.dir/link.txt --verbose=1
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_57b0b.dir/feature_tests.cxx.obj  -o cmTC_57b0b 
 make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
 
 
@@ -555,14 +555,14 @@ make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-n
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1d096/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1d096.dir/build.make CMakeFiles/cmTC_1d096.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4f6b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4f6b1.dir/build.make CMakeFiles/cmTC_4f6b1.dir/build
 make[1]: Entering directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1d096.dir/feature_tests.cxx.obj
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c++98 -o CMakeFiles/cmTC_1d096.dir/feature_tests.cxx.obj -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1d096
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d096.dir/link.txt --verbose=1
-/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_1d096.dir/feature_tests.cxx.obj  -o cmTC_1d096 
+Building CXX object CMakeFiles/cmTC_4f6b1.dir/feature_tests.cxx.obj
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs     -std=c++98 -o CMakeFiles/cmTC_4f6b1.dir/feature_tests.cxx.obj -c /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4f6b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f6b1.dir/link.txt --verbose=1
+/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-g++  -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -lm -lc -lnosys --specs=nosys.specs    -mthumb -mcpu=cortex-m3 -mlittle-endian -mthumb-interwork  -Wl,-Map=linker.map -Wl,-cref -Wl,--gc-sections  CMakeFiles/cmTC_4f6b1.dir/feature_tests.cxx.obj  -o cmTC_4f6b1 
 make[1]: Leaving directory '/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/CMakeTmp'
 
 

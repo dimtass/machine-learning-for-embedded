@@ -1,8 +1,8 @@
 /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/rebuild_cache.dir
 /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/stdperiph.dir
 /rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/CMakeFiles/edit_cache.dir
-/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/src_stdperiph/CMakeFiles/rebuild_cache.dir
-/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/src_stdperiph/CMakeFiles/edit_cache.dir
-/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir
-/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir
-/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir
+/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/src_simple_nn/CMakeFiles/rebuild_cache.dir
+/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/src_simple_nn/CMakeFiles/edit_cache.dir
+/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir
+/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir
+/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32/src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir

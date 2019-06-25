@@ -19,7 +19,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/source/cmake/noarch_c_lib.cmake"
   "/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/source/cmake/stdperiph.cmake"
   "/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/source/cmake/stm32_dimtass_lib.cmake"
-  "/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/source/src_stdperiph/CMakeLists.txt"
+  "/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/source/src_simple_nn/CMakeLists.txt"
   "/usr/share/cmake-3.10/Modules/CMakeASMCompiler.cmake.in"
   "/usr/share/cmake-3.10/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in"
@@ -118,13 +118,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeASMCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src_stdperiph/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src_simple_nn/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/stdperiph.dir/DependInfo.cmake"
-  "src_stdperiph/CMakeFiles/stm32-simple-neural-network.bin.dir/DependInfo.cmake"
-  "src_stdperiph/CMakeFiles/stm32-simple-neural-network.elf.dir/DependInfo.cmake"
-  "src_stdperiph/CMakeFiles/stm32-simple-neural-network.hex.dir/DependInfo.cmake"
+  "src_simple_nn/CMakeFiles/stm32-neural-network.bin.dir/DependInfo.cmake"
+  "src_simple_nn/CMakeFiles/stm32-neural-network.elf.dir/DependInfo.cmake"
+  "src_simple_nn/CMakeFiles/stm32-neural-network.hex.dir/DependInfo.cmake"
   )

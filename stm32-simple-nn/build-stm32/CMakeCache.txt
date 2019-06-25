@@ -129,7 +129,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_NM:FILEPATH=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update/bin/arm-none-eabi-nm
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=stm32-simple-neural-network
+CMAKE_PROJECT_NAME:STATIC=stm32-neural-network
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=
@@ -181,7 +181,7 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=/rnd/DL/machine-learning-for-embedded/stm32-simple
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //No help, variable specified on the command line.
-SRC:UNINITIALIZED=src_stdperiph
+SRC:UNINITIALIZED=src_simple_nn
 
 //No help, variable specified on the command line.
 TOOLCHAIN_DIR:UNINITIALIZED=/opt/toolchains/gcc-arm-none-eabi-7-2018-q2-update
@@ -202,10 +202,10 @@ USE_STM32_USB_FS_LIB:BOOL=OFF
 stdperiph_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
-stm32-simple-neural-network_BINARY_DIR:STATIC=/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32
+stm32-neural-network_BINARY_DIR:STATIC=/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/build-stm32
 
 //Value Computed by CMake
-stm32-simple-neural-network_SOURCE_DIR:STATIC=/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/source
+stm32-neural-network_SOURCE_DIR:STATIC=/rnd/DL/machine-learning-for-embedded/stm32-simple-nn/source
 
 
 ########################
@@ -254,7 +254,7 @@ CMAKE_CXX_COMPILER_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //cxx compiler flags
-CMAKE_CXX_FLAGS:INTERNAL='-mcpu=cortex-m3 -mthumb -mlittle-endian -mthumb-interwork  -mfloat-abi=soft -Wall -Werror -Wl,-Map=output.map -Wl,--gc-sections -lc -lm  -g -O3 -std=c++11 '
+CMAKE_CXX_FLAGS:INTERNAL='-mcpu=cortex-m3 -mthumb -mlittle-endian -mthumb-interwork  -mfloat-abi=soft -Wall -Werror -Wl,-Map=output.map -Wl,--gc-sections -lc -lm  -g -O3 -ffast-math '
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
 CMAKE_CXX_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_MINSIZEREL
@@ -270,7 +270,7 @@ CMAKE_C_COMPILER_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
 //c compiler flags
-CMAKE_C_FLAGS:INTERNAL=-mcpu=cortex-m3 -mthumb -mlittle-endian -mthumb-interwork  -mfloat-abi=soft -Wall -Werror -Wl,-Map=output.map -Wl,--gc-sections -lc -lm  -g -O3 -std=c11
+CMAKE_C_FLAGS:INTERNAL=-mcpu=cortex-m3 -mthumb -mlittle-endian -mthumb-interwork  -mfloat-abi=soft -Wall -Werror -Wl,-Map=output.map -Wl,--gc-sections -lc -lm  -g -O3 -ffast-math -std=c11
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
 CMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL
