@@ -119,7 +119,8 @@ void benchmark_neural_network()
 
 	/* Predict */
 	DEBUG_PORT->ODR |= DEBUG_PIN;
-	nn_predict(inputs[0], weights, 3);
+  	for (int i=0; i<1000; i++)
+		nn_predict(inputs[0], weights, 3);
 	DEBUG_PORT->ODR &= ~DEBUG_PIN;
 	TRACE(("DONE...\n"));
 }

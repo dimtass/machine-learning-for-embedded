@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-87edd7bf6a84d8ff5e459a57e1c1f68b src_simple_nn/CMakeFiles/stm32-neural-network.bin
-7358890ed6fb2b9a14397203ee1f9f21 src_simple_nn/CMakeFiles/stm32-neural-network.hex

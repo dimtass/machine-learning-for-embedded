@@ -22,14 +22,14 @@ double dot(double v[], double u[], int n)
     for (int i = 0; i < n; i++)
         result += v[i]*u[i];
 
-    TRACEL(TRACE_LEVEL_NN, ("dot = %f\n", result));
+    // TRACEL(TRACE_LEVEL_NN, ("dot = %f\n", result));
     return result;
 }
 
 double sigmoid(double x)
 {
 	double result = 1 / (1+exp(-x));
-	TRACEL(TRACE_LEVEL_NN, ("sigmoid(%f) = %f\n", x, result));
+	// TRACEL(TRACE_LEVEL_NN, ("sigmoid(%f) = %f\n", x, result));
 	return result;
 }
 
@@ -37,7 +37,7 @@ double nn_predict(double * input, double * weights, int n)
 {
 	double result = sigmoid(dot(input, weights, n));
 
-	TRACEL(TRACE_LEVEL_NN, ("predict = %f\n", result));
+	// TRACEL(TRACE_LEVEL_NN, ("predict = %f\n", result));
 	return(result);
 }
 
