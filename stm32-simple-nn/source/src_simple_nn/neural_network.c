@@ -40,4 +40,3 @@ double nn_predict(double * input, double * weights, int n)
 	// TRACEL(TRACE_LEVEL_NN, ("predict = %f\n", result));
 	return(result);
 }
-

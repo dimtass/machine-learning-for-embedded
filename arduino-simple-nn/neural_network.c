@@ -25,13 +25,6 @@ double dot(double v[], double u[], int n)
 
 double sigmoid(double x)
 {
-	double result = 1 / (1+exp(-x));
-	return result;
+  double result = 1 / (1+exp(-x));
+  return result;
 }
-
-double nn_predict(double * input, double * weights, int n)
-{
-	double result = sigmoid(dot(input, weights, n));
-	return(result);
-}
-

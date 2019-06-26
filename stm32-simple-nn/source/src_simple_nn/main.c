@@ -20,6 +20,77 @@ double weights[] = {
 	-0.2078435,
 	-4.62963669};
 
+/* Those are the weights for the NN with the hidden layer */
+double weights_1[32][3] = {
+		{ 1.5519611 ,  0.65860842, -0.85158313},
+		{ 1.06265208,  0.31949065, -0.13750623},
+		{-2.30455417,  0.30591339,  0.7240955 },
+		{ 0.30877321,  0.13609545,  0.06030529},
+		{-1.17039621,  0.37650795,  0.68144084},
+		{-0.69348733,  0.60220631,  0.28797794},
+		{ 0.40589165, -0.18831817,  0.35705378},
+		{-0.05932593,  0.59004868, -0.1701374 },
+		{ 1.392689  ,  0.70259631, -0.74218012},
+		{ 0.48329391,  0.60207043,  0.38431145},
+		{-0.95295493,  0.07404055,  0.3302735 },
+		{ 2.10166106,  0.39611358, -1.00823685},
+		{-0.08448525, -0.10317019,  0.53841852},
+		{ 2.540211  ,  0.05323626, -1.06332893},
+		{-1.84539917,  0.48765352,  0.5685712 },
+		{-0.01802026,  0.18219485,  0.62404852},
+		{ 0.92427558,  0.04736742,  0.12561239},
+		{ 1.08965851, -0.0801783 , -0.08860555},
+		{-1.82176436, -0.20573879,  0.780304  },
+		{ 0.45220284,  0.4997675 , -0.18653686},
+		{ 2.14035487, -0.03879152, -0.80268326},
+		{ 1.82177898, -0.11746983, -0.36502932},
+		{ 0.62309348,  0.30696019, -0.13735078},
+		{-0.05199235, -0.05282913,  0.91758557},
+		{ 0.29694869,  0.54693956,  0.69834386},
+		{ 0.39180283,  0.07674308,  0.54732749},
+		{-1.72233784,  0.36036508,  0.28150989},
+		{-1.70252288,  0.30217376,  0.69514718},
+		{ 0.78278019, -0.07366525, -0.16997775},
+		{ 1.28860736,  0.17580282, -0.17742198},
+		{-0.47323461,  0.48374213,  0.08422625},
+		{ 1.49427898,  0.191315  , -0.6043115 }
+};
+
+double weights_2[] = {
+		  1.45800076,
+		  0.70967606,
+		 -2.68516009,
+		  0.02268129,
+		 -1.49619033,
+		 -0.91787325,
+		  0.09344477,
+		 -0.29547836,
+		  1.28547469,
+		  0.04046954,
+		 -1.29961045,
+		  2.02908422,
+		 -0.42753493,
+		  2.49285692,
+		 -2.11993655,
+		 -0.59068471,
+		  0.62114759,
+		  0.76446439,
+		 -2.22804807,
+		  0.25244996,
+		  1.9591224 ,
+		  1.53351039,
+		  0.37624935,
+		 -0.74102723,
+		 -0.48484892,
+		 -0.2683768 ,
+		 -2.020174  ,
+		 -1.99787033,
+		  0.54688533,
+		  0.90035289,
+		 -0.67413096,
+		  1.31408841,
+};
+
 /* Those are the inputs to test and benchmark */
 double inputs[8][3] = {
 		{0, 0, 0},
@@ -107,7 +178,7 @@ void test_neural_network()
 	TRACE(("\n"));
 }
 
-void benchmark_neural_network()
+static inline void toogle_debug_pin(void)
 {
 	/* First toggle */
 	DEBUG_PORT->ODR |= DEBUG_PIN;
@@ -116,19 +187,57 @@ void benchmark_neural_network()
 	/* Second toggle */
 	DEBUG_PORT->ODR |= DEBUG_PIN;
 	DEBUG_PORT->ODR &= ~DEBUG_PIN;
+}
 
+void benchmark_neural_network()
+{
+	toogle_debug_pin();
 	/* Predict */
 	DEBUG_PORT->ODR |= DEBUG_PIN;
-  	for (int i=0; i<1000; i++)
-		nn_predict(inputs[0], weights, 3);
+  	double output = sigmoid(dot(inputs[0], weights, 3));
 	DEBUG_PORT->ODR &= ~DEBUG_PIN;
-	TRACE(("DONE...\n"));
+	TRACE(("DONE: %f\n", output));
+}
+
+/**
+ *  @brief This NN has a hidden layer with 32 nodes.
+ * 	This function will print all the outputs in order
+ *  to verify that are valid
+ */
+void test_neural_network2()
+{
+	double layer[32];
+
+	for (int k=0; k<8; k++) {
+		for (int i=0; i<32; i++) {
+			layer[i] = sigmoid(dot(inputs[k], weights_1[i], 3));
+		}
+		double output = sigmoid(dot(layer, weights_2, 32));
+		TRACE(("output[%d]: %f\n", k, output));
+	}
+}
+
+/**
+ * @brief This NN has a hidden layer with 32 nodes.
+ * This function will just do a forward run
+ */
+void benchmark_neural_network2()
+{
+	double layer[32];
+
+	DEBUG_PORT->ODR |= DEBUG_PIN;
+	for (int i=0; i<32; i++) {
+		layer[i] = sigmoid(dot(inputs[0], weights_1[i], 3));
+	}
+	double output = sigmoid(dot(layer, weights_2, 32));
+	DEBUG_PORT->ODR &= ~DEBUG_PIN;
+	TRACE(("DONE...%f\n", output));
 }
 
 int main(void)
 {
 	/* Uncomment this for 128 MHz */
-	// SystemCoreClock = overclock_stm32f103();
+	SystemCoreClock = overclock_stm32f103();
 
 	if (SysTick_Config(SystemCoreClock / 1000)) {
 		/* Capture error */
@@ -170,14 +279,38 @@ int main(void)
 void dbg_uart_parser(uint8_t *buffer, size_t bufferlen, uint8_t sender)
 {
 	buffer[bufferlen] = 0;
-	if (!strncmp((char*) buffer, "TEST", 4)) {
-		TRACE(("Running nn test:\n\n"));
-		test_neural_network();
+	if (!strncmp((char*) buffer, "TEST=", 5)) {
+		/* Get mode */
+		uint8_t mode = atoi((const char*) &buffer[5]);
+
+		TRACE(("Running nn test mode: %d\n\n", mode));
+		switch(mode) {
+			case 1:
+				test_neural_network();
+				break;
+			case 2:
+				test_neural_network2();
+				break;
+			default:
+				TRACE(("Available modes: 1-2\n"));
+		}
 		TRACE(("\nFinished.\n----------\n"));
 	}
-	else if (!strncmp((char*) buffer, "START", 4)) {
-		TRACE(("Starting benchmark mode...\n\n"));
-		benchmark_timer = mod_timer_add(NULL, 2000, (void*) &benchmark_neural_network, &obj_timer_list);
+	else if (!strncmp((char*) buffer, "START=", 6)) {
+		/* Get mode */
+		uint8_t mode = atoi((const char*) &buffer[6]);
+
+		TRACE(("Starting benchmark mode %d...\n\n", mode));
+		switch(mode) {
+			case 1:
+				benchmark_timer = mod_timer_add(NULL, 2000, (void*) &benchmark_neural_network, &obj_timer_list);
+				break;
+			case 2:
+				benchmark_timer = mod_timer_add(NULL, 2000, (void*) &benchmark_neural_network2, &obj_timer_list);
+				break;
+			default:
+				TRACE(("Available modes: 1-2\n"));
+		}
 	}
 	else if (!strncmp((char*) buffer, "STOP", 4)) {
 		TRACE(("Stoping benchmark mode...\n\n"));

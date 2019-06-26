@@ -10,6 +10,8 @@
 extern "C" {
 #endif
 
+double dot(double v[], double u[], int n);
+double sigmoid(double x);
 double nn_predict(double * input, double * weights, int n);
 
 #ifdef __cplusplus
