@@ -1,6 +1,4 @@
 #include <TimerOne.h>
-
-#include <TimerOne.h>
 #include "neural_network.h"
 
 #define DEBUG_PIN 9
