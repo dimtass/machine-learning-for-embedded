@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "debug_trace.h": "c",
-        "model.h": "c",
-        "baselayer.h": "c"
-    }
-}
