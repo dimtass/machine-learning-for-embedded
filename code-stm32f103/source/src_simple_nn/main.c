@@ -178,7 +178,7 @@ void test_neural_network()
 	TRACE(("\n"));
 }
 
-static inline void toogle_debug_pin(void)
+static inline void toggle_debug_pin(void)
 {
 	/* First toggle */
 	DEBUG_PORT->ODR |= DEBUG_PIN;
@@ -191,7 +191,7 @@ static inline void toogle_debug_pin(void)
 
 void benchmark_neural_network()
 {
-	toogle_debug_pin();
+	toggle_debug_pin();
 	/* Predict */
 	DEBUG_PORT->ODR |= DEBUG_PIN;
   	double output = sigmoid(dot(inputs[0], weights, 3));
