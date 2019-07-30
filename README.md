@@ -21,8 +21,8 @@ Teensy 3.2 | code-arduino-due | Arduino IDE
 Teensy 3.5 | code-arduino-due | Arduino IDE
 Arduino Due | code-arduino-due | Arduino IDE
 ESP8266 | code-esp8266 | Arduino IDE
-STM32F103C8T6 | code-stm32f103| Arduino IDE
-STM32F746NG | code-stm32f746 | Arduino IDE
+STM32F103C8T6 | code-stm32f103| CMAKE
+STM32F746NG | code-stm32f746 | CMAKE
 
 
 ## NN implementations
