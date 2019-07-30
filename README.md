@@ -19,7 +19,6 @@ Arduino nano | code-arduino | Arduino IDE
 Arduino Due | code-arduino-due | Arduino IDE
 Teensy 3.2 | code-arduino-due | Arduino IDE
 Teensy 3.5 | code-arduino-due | Arduino IDE
-Arduino Due | code-arduino-due | Arduino IDE
 ESP8266 | code-esp8266 | Arduino IDE
 STM32F103C8T6 | code-stm32f103| CMAKE
 STM32F746NG | code-stm32f746 | CMAKE
@@ -51,6 +50,11 @@ You can see which pin that is in the code, because it's different for
 each different MCU.
 
 > You'll find more informations on the blog posts.
+
+## Overclocking
+In order to observe how the frequency affects the inference,
+I've overclocked a few of the MCUs. In the blog posts, you can
+see the results for the default and overclocked MCUs.
 
 ## License
 The license is MIT and you can use the code however you like.
